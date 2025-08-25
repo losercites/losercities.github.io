@@ -1,1 +1,1 @@
-# losercities.github.io/redkit
+# losercites.github.io/redkit
