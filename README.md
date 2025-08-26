@@ -1,1 +1,2 @@
-# losercites.github.io/redkit
+losercites.github.io/redkit
+# Blooket simulator 
