@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Cases | Cosmetic Sim</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="menu-bg">
+    <div class="menu-container" style="max-width: 660px; margin-top: 7vh;">
+      <h1 class="title">Open a Case</h1>
+      <div class="simulator-content">
+        <div class="case-display">
+          <img src="assets/case.png" alt="Case" class="case-img">
+          <button id="open-case-btn" class="menu-btn" style="margin-top: 30px; font-size:1.3rem;">Open Case</button>
+        </div>
+        <div id="reward-section" class="reward-section" style="display:none;">
+          <div class="reward-title">You got:</div>
+          <img id="reward-img" src="" alt="Reward" class="reward-img">
+          <div id="reward-name" class="reward-name"></div>
+          <div id="reward-rarity" class="reward-rarity"></div>
+          <button id="open-another-btn" class="menu-btn" style="margin-top:16px;">Open Another</button>
+        </div>
+        <div style="margin-top:38px;">
+          <a href="inventory.html" class="menu-btn" style="background:#900;">Go to Inventory</a>
+          <a href="index.html" class="menu-btn" style="margin-left:14px;">Main Menu</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Not affiliated with Blooket. For educational purposes only.</p>
+    </footer>
+  </div>
+  <script src="js/simulator.js"></script>
+</body>
+</html>
