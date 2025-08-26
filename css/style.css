@@ -72,3 +72,66 @@ footer {
   color: #ffdada;
   opacity: 0.7;
 }
+.inventory-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.inventory-item {
+  background: #fff2;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #75000033;
+  padding: 18px 28px;
+  text-align: center;
+  min-width: 130px;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.16s, box-shadow 0.16s;
+  position: relative;
+}
+.inventory-item:hover {
+  transform: scale(1.04) translateY(-3px);
+  box-shadow: 0 6px 32px #ff000044;
+}
+
+.inventory-item img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  background: #fff3;
+  box-shadow: 0 2px 8px #fff2;
+}
+
+.inventory-item .item-name {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+}
+
+.inventory-item .item-rarity {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffd700;
+  margin-bottom: 3px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.inventory-item .item-amount {
+  font-size: 1.05rem;
+  color: #ffbbbb;
+}
+
+.inv-btn-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
