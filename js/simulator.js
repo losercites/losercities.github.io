@@ -2,6 +2,7 @@
 const cosmetics = [
   { id: 'red_blook', name: 'Red Blook', rarity: 'common', image: 'assets/red_blook.png', weight: 60 },
   { id: 'blue_blook', name: 'Blue Blook', rarity: 'rare', image: 'assets/blue_blook.png', weight: 30 },
+  { id: 'epic_face', name: 'Epic Face', rarity: 'epic', image: 'assets/blue_blook.png', weight: 17 },
   { id: 'golden_blook', name: 'Golden Blook', rarity: 'legendary', image: 'assets/golden_blook.png', weight: 10 },
 ];
 
